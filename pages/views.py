@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from cars.models import Car
 
 from pages.models import Team
 
@@ -6,8 +7,21 @@ from pages.models import Team
 # Create your views here.
 def home(request):
     teams = Team.objects.all()
+    featured_cars=Car.objects.order_by('-created_date').filter(is_featured=True)
+    all_cars=Car.objects.order_by('-created_date')
+    model_search = Car.objects.values_list('model', flat=True).distinct()
+    city_search = Car.objects.values_list('city', flat=True).distinct()
+    year_search = Car.objects.values_list('year', flat=True).distinct()
+    condition_search = Car.objects.values_list('condition', flat=True).distinct()
+
     data = {
         "teams": teams,
+        "featured_cars": featured_cars,
+        "all_cars": all_cars,
+        'model_search': model_search,
+        'city_search': city_search,
+        'year_search': year_search,
+        'condition_search': condition_search,
     }
     return render(request, "pages/home.html", data)
 
