@@ -156,10 +156,10 @@ MESSAGE_TAGS = {
 SITE_ID = 1
 
 #Email sending
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'cojocari.v88@gmail.com'
-EMAIL_HOST_PASSWORD = 'AAD1sup@$$'
+EMAIL_HOST = 'smtp.mail.ru'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'cojocari.v@mail.ru'
+EMAIL_HOST_PASSWORD = 'gN3DgGFnk2ZYYF42EiaJ'
 EMAIL_USE_TLS = True
 
 
