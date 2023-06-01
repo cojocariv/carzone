@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "cars.apps.CarsConfig",
     "pages.apps.PagesConfig",
     "accounts.apps.AccountsConfig",
+    "contacts.apps.ContactsConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -151,6 +152,19 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+SITE_ID = 1
+
+#Email sending
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'cojocari.v88@gmail.com'
+EMAIL_HOST_PASSWORD = 'AAD1sup@$$'
+EMAIL_USE_TLS = True
+
+
+
+
 # MEDIA_ROOT = BASE_DIR, 'media'
 # MEDIA_URL = '/media/'
 
