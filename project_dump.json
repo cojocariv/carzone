@@ -1,0 +1,672 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "Ferrari",
+        "state": "CA",
+        "city": "Austin",
+        "color": "White",
+        "model": "488",
+        "condition": "New",
+        "price": 5500.0,
+        "year": 2010,
+        "description": "<p>The&nbsp;<strong>Ferrari 250</strong></p>",
+        "car_photo_1": "photos/2023/05/21/1902536891_fQWd6zP.jpg",
+        "car_photo_2": "photos/2023/05/21/1902536917_YHc4ynZ.jpg",
+        "car_photo_3": "photos/2023/05/21/1902537043_pbdK3Kb.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "engine": "3.4L",
+        "doors": "4",
+        "is_featured": false,
+        "transmision": "Automatic",
+        "fuel_type": "Petrol",
+        "created_date": "2023-05-21T21:36:41Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "Ford",
+        "state": "AR",
+        "city": "Ark",
+        "color": "Red",
+        "model": "Edge",
+        "condition": "New",
+        "price": 3000.0,
+        "year": 2023,
+        "description": "<p>The&nbsp;<em>Ford Edge</em>&nbsp;is a range of crossover SUVs manufactured by the Ford Motor Company. Introduced for the 2007 model year, the Edge is the first mid-size CUV&nbsp;</p>",
+        "car_photo_1": "photos/2023/05/21/1901478607.jpg",
+        "car_photo_2": "photos/2023/05/21/1901478618.jpg",
+        "car_photo_3": "photos/2023/05/21/1901478646.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Seat Heating,Direct Fuel Injection",
+        "engine": "2.0 Fuel",
+        "doors": "5",
+        "is_featured": false,
+        "transmision": "Automatic",
+        "fuel_type": "Petrol",
+        "created_date": "2023-05-21T21:47:48Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "Jaguar",
+        "state": "FL",
+        "city": "Miami",
+        "color": "Blue",
+        "model": "F-PACE",
+        "condition": "Used",
+        "price": 2500.0,
+        "year": 2016,
+        "description": "<p>The Jaguar&nbsp;<em>F</em>-<em>Pace</em>&nbsp;(X761) is a compact luxury crossover SUV made by Jaguar Land Rover, a British car manufacturer, under their Jaguar marque.</p>",
+        "car_photo_1": "photos/2023/05/21/1902932503.jpg",
+        "car_photo_2": "photos/2023/05/21/1902932514.jpg",
+        "car_photo_3": "photos/2023/05/21/1902932528.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Reversing Camera",
+        "engine": "2.5 Diesel",
+        "doors": "6",
+        "is_featured": true,
+        "transmision": "Automatic",
+        "fuel_type": "Diesel",
+        "created_date": "2023-05-21T21:47:48Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "Ford",
+        "state": "IN",
+        "city": "Washington",
+        "color": "Black",
+        "model": "F250",
+        "condition": "Used",
+        "price": 7800.0,
+        "year": 2018,
+        "description": "<p>The&nbsp;<em>Ford Super Duty</em>&nbsp;is a series of heavy-duty pickup trucks produced by the Ford Motor Company since the 1999 model year.</p>",
+        "car_photo_1": "photos/2023/05/23/1894300894.jpg",
+        "car_photo_2": "photos/2023/05/23/1894300905.jpg",
+        "car_photo_3": "photos/2023/05/23/1894300920.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector",
+        "engine": "5.5",
+        "doors": "5",
+        "is_featured": true,
+        "transmision": "Manual",
+        "fuel_type": "Diesel",
+        "created_date": "2023-05-23T21:15:07Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "Toyota",
+        "state": "KY",
+        "city": "New York",
+        "color": "white",
+        "model": "4Runner",
+        "condition": "Used",
+        "price": 5400.0,
+        "year": 2012,
+        "description": "<p>The&nbsp;<em>Toyota 4Runner</em>&nbsp;is an SUV manufactured by the Japanese automaker Toyota and marketed globally since 1984, across five generations.</p>",
+        "car_photo_1": "photos/2023/05/23/1893633875.jpg",
+        "car_photo_2": "photos/2023/05/23/1893633879.jpg",
+        "car_photo_3": "photos/2023/05/23/1893633884.jpg",
+        "features": "Alarm System,ParkAssist,Power Steering",
+        "engine": "5.2",
+        "doors": "4",
+        "is_featured": true,
+        "transmision": "Manual",
+        "fuel_type": "Diesel",
+        "created_date": "2023-05-23T21:18:55Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "Toyota",
+        "state": "LA",
+        "city": "Lui",
+        "color": "white",
+        "model": "Corolla",
+        "condition": "Used",
+        "price": 3200.0,
+        "year": 2014,
+        "description": "<p>Toyota corolla best</p>",
+        "car_photo_1": "photos/2023/05/24/1900893299.jpg",
+        "car_photo_2": "photos/2023/05/24/1900893311.jpg",
+        "car_photo_3": "photos/2023/05/24/1900893329.jpg",
+        "features": "Cruise Control,Audio Interface,Reversing Camera,Direct Fuel Injection",
+        "engine": "1.5",
+        "doors": "4",
+        "is_featured": false,
+        "transmision": "Automatic",
+        "fuel_type": "Petrol",
+        "created_date": "2023-05-24T17:09:09Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Vasilii",
+        "last_name": "Cojocari",
+        "designation": "Director",
+        "photo": "photos/2023/05/20/IMG_1053_HnUU9kn.JPG",
+        "facebook_link": "https://www.facebook.com/v.cojocari/",
+        "created_date": "2023-05-20T14:17:58.148Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Tatiana",
+        "last_name": "Cojocari",
+        "designation": "Manager",
+        "photo": "photos/2023/05/20/IMG_1053_XEqWGv0.JPG",
+        "facebook_link": "http://fb.com",
+        "created_date": "2023-05-20T14:31:51.582Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Stefan",
+        "last_name": "Cojocari",
+        "designation": "Designer",
+        "photo": "photos/2023/05/20/unnamed.jpg",
+        "facebook_link": "http://fb.com",
+        "created_date": "2023-05-20T14:32:56.582Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Vladislav",
+        "last_name": "Cojocari",
+        "designation": "Developer",
+        "photo": "photos/2023/05/20/Full-HD-Wallpapers-5A9.jpg",
+        "facebook_link": "http://fb.com",
+        "created_date": "2023-05-20T14:33:20.305Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "Tatiana",
+        "last_name": "Babenco",
+        "designation": "Painter",
+        "photo": "photos/2023/05/20/32822.jpg",
+        "facebook_link": "http://fb.com",
+        "created_date": "2023-05-20T14:33:56.055Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "tatiana",
+        "last_name": "cojocari",
+        "car_id": 3,
+        "customer_need": "I'm interested in this",
+        "car_title": "Jaguar F-PACE",
+        "city": "chisinau",
+        "state": "moldova",
+        "email": "tanea.b@mail.ru",
+        "phone": "069353875",
+        "message": "i need more info about",
+        "user_id": 2,
+        "create_date": "2023-06-01T11:04:37.278Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "tatiana",
+        "last_name": "cojocari",
+        "car_id": 3,
+        "customer_need": "I'm interested in this",
+        "car_title": "Jaguar F-PACE",
+        "city": "chisinau",
+        "state": "moldova",
+        "email": "tanea.b@mail.ru",
+        "phone": "069353875",
+        "message": "i need more info about",
+        "user_id": 2,
+        "create_date": "2023-06-01T11:04:51.886Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "dfg",
+        "last_name": "dfgdfg",
+        "car_id": 3,
+        "customer_need": "I'm interested in this",
+        "car_title": "Jaguar F-PACE",
+        "city": "dfgd",
+        "state": "fgdfg",
+        "email": "dfgdf@mail.ru",
+        "phone": "gdf",
+        "message": "gdfg",
+        "user_id": 2,
+        "create_date": "2023-06-01T11:05:02.671Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "l;",
+        "last_name": "k;",
+        "car_id": 5,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "Toyota 4Runner",
+        "city": "fgbhfgh",
+        "state": "fghfg",
+        "email": "cojocariv88@gmail.com",
+        "phone": "069353875",
+        "message": "asdas",
+        "user_id": 2,
+        "create_date": "2023-06-01T11:07:52.346Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$wDnwZfrJc46Z1hZQv0fjcn$i5Bj6XmmF3YeQOsXMD9a1aDswNx3sSDhGviI8ElaCto=",
+        "last_login": "2023-06-01T08:48:54.630Z",
+        "is_superuser": true,
+        "username": "djangoadmin",
+        "first_name": "Vasilii",
+        "last_name": "Cojocari",
+        "email": "cojocari.v88@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-05-19T20:23:10Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$fWmFpy51gjbJOufnFK4Ffk$HWYJi63dWT7zoSByfCz75Qrl61yX9EiOvSikbZ9+LqQ=",
+        "last_login": "2023-05-30T15:54:55.516Z",
+        "is_superuser": false,
+        "username": "vcojocari1",
+        "first_name": "vasili",
+        "last_name": "cojocari",
+        "email": "cojocari.v888@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-30T14:02:36.844Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!KabtOALxMaQLFbf5OcZ3zXCAAPr9qdgF06VuJ9ln",
+        "last_login": "2023-05-31T13:03:15.924Z",
+        "is_superuser": false,
+        "username": "vasile",
+        "first_name": "Vasile",
+        "last_name": "Cojocari",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-31T13:03:15.908Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$6sSLS70SMH2va7yaBaua8q$1Z0qCLxoCy+OtjeHf26rBblbKoFGQizEibzKuRsLGJY=",
+        "last_login": "2023-06-01T08:13:53.279Z",
+        "is_superuser": false,
+        "username": "inegrusa",
+        "first_name": "ion",
+        "last_name": "negrusa",
+        "email": "sadsi@mail.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-06-01T08:13:53.142Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$RSYqYzemqAgSMBrY2Oce30$64wGn1ydENH9eWBDTB9iYzd52Uazum/TRLXjhP3XOA0=",
+        "last_login": "2023-06-01T08:45:00.181Z",
+        "is_superuser": false,
+        "username": "cojocariv",
+        "first_name": "vasilii",
+        "last_name": "cojocari",
+        "email": "cojocari.v88@mail.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-06-01T08:45:00.055Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "q3magg8hf89k7a0h4wjutftpanurasxt",
+    "fields": {
+        "session_data": ".eJxVjDsOwyAQBe9CHSFYGxanTO8zIJaF4CQCyZ8qyt1jSy6S9s3MewsftrX4bUmzn1hcBYjL70YhPlM9AD9CvTcZW13nieShyJMucmycXrfT_TsoYSl7PZDDDoiCMQRs0bGBjlAjcDYZBw2YbdaxZ1TaoTWKolLQ287ijgbx-QLNRDbC:1q0Qmd:wAWAUhdjboFGhW1BeNFuhJvKJjEesLETB23c1gBwrL4",
+        "expire_date": "2023-06-03T17:54:23.816Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "t5x3iaxslax6hh4edfvg72wqvw7cxyqj",
+    "fields": {
+        "session_data": ".eJxVzLGOwjAMgOF38VxVaRKSlhEktuMF0KlyHEMLJek16QLi3a9FLGyW_89-QorU44BEcQ65TRkzw_b0hHGKxCnBFoZ46QMUkCiOS4NlxDl37YgT3lcArwKOj8ff_XAVe-MN_BbQvsmceGp7vxgJXzuHdOOwBn_FcIklxZCn3pUrKT81lT_R87D72K8HHaZuuVZqI53F2jrt0DCh8kJg7cWmqawwQrLmiuVZo3X1WWlta1LcIHtRScMNvP4BsgFU7w:1q4RDJ:ihOFb_fJ1yj3l7VLArHVFefH2XwT7FbMBIg-C-dLnik",
+        "expire_date": "2023-06-14T19:10:29.172Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "1299258410999801",
+        "secret": "3ca1299ca7cb5adc0b5ce30bb0f6db78",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google Login",
+        "client_id": "303013821657-mn1fpuk5qt6au9cj3q9tn3uj620gek9u.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "vasile"
+        ],
+        "provider": "facebook",
+        "uid": "9736108783073697",
+        "last_login": "2023-05-31T13:03:15.914Z",
+        "date_joined": "2023-05-31T13:03:15.914Z",
+        "extra_data": "{\"id\": \"9736108783073697\", \"name\": \"Vasile Cojocari\", \"first_name\": \"Vasile\", \"last_name\": \"Cojocari\"}"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-05-19T20:24:27.541Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "djangoadmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-05-20T10:28:34.591Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-05-20T14:15:28.715Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Vasilii Cojocari - Director",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-05-20T14:15:36.552Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Vasilii Cojocari - Director",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-05-20T14:16:48.379Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Vasilii Cojocari - Director",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-05-20T14:17:58.149Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Vasilii Cojocari - Director",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-05-20T14:28:06.852Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Vasilii Cojocari - Director",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-05-20T14:31:51.584Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Tatiana Cojocari - Manager",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-05-20T14:32:56.583Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Stefan Cojocari - Designer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-05-20T14:33:20.307Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Vladislav Cojocari - Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-05-20T14:33:56.056Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Tatiana Babenco - Painter",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-05-20T14:48:30.120Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Vasilii Cojocari - Director",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Facebook link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-05-20T14:48:40.971Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Vasilii Cojocari - Director",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}
+]
