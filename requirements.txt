@@ -4,6 +4,7 @@ cffi==1.15.1
 charset-normalizer==3.1.0
 cryptography==41.0.0
 defusedxml==0.7.1
+dj-database-url==2.0.0
 Django==4.0
 django-allauth==0.54.0
 django-autoslug==1.9.8
@@ -32,3 +33,4 @@ typing_extensions==4.6.3
 tzdata==2023.3
 uritemplate==4.1.1
 urllib3==2.0.2
+whitenoise==6.4.0
