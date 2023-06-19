@@ -28,7 +28,7 @@ SECRET_KEY = "django-insecure-57rj)*jrlfn%!wzfy%-*^r^8=7jz_ft7dlw9evz4s62c_dp@1$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['whispering-caverns-42114-7068b4b63971.herokuapp.com/', 'www.autoviphouse.eu', 'autoviphouse.eu']
+ALLOWED_HOSTS = ['whispering-caverns-42114.herokuapp.com', 'www.autoviphouse.eu', 'autoviphouse.eu']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
