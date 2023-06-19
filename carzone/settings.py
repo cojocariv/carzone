@@ -167,7 +167,7 @@ EMAIL_HOST_PASSWORD = 'AAD1sup@$$'
 EMAIL_USE_TLS = True
 
 #Whitenoise settings
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 
 
