@@ -98,7 +98,7 @@ WSGI_APPLICATION = "carzone.wsgi.application"
 #         "ENGINE": "django.db.backends.postgresql",
 #         "NAME": "carzone_db",
 #         "USER": "postgres",
-#         "PASSWORD": "123",
+#         "PASSWORD": "AAD1sup@$$",
 #         "HOST": "192.168.100.234",
 #     }
 # }
