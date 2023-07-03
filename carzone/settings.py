@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-57rj)*jrlfn%!wzfy%-*^r^8=7jz_ft7dlw9evz4s62c_dp@1$"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
+    "multiselectfield",
 
     #Providers
     "allauth.socialaccount.providers.facebook",
